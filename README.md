@@ -109,14 +109,16 @@ for expression of refraction and to propagate angle of which will be refracted
 Note:use NIM such as rear projection film for a expression of a negative refractive index
  
 Group of dispersion equation:
-
-
-GVD{\displaystyle {\textrm {GVD}}(\omega _{0})\equiv {\frac {\partial }{\partial \omega }}\left({\frac {1}{v_{g}(\omega )}}\right)_{\omega =\omega _{0}},}
-
+<intent-filter  type='["String"]' content="math/tex">
+--regex GVD{\displaystyle {\textrm {GVD}}(\omega _{0})\equiv {\frac {\partial }{\partial \omega }}\left({\frac {1}{v_{g}(\omega )}}\right)_{\omega =\omega _{0}},}...
+<!--
 Medium-dependent group of dispersion:
+-->
 
 GVDmd{\displaystyle {\textrm {GVD}}(\omega _{0})\equiv \left({\frac {\partial ^{2}k}{\partial \omega ^{2}}}\right)_{\omega =\omega _{0}},}
-
+<action android:name="android.intent.action.DEFAULT" />
+<category android:name="android.intent.category.MAIN" />
+</intent-filter>
 For expression of the chirp of a pulse of light passed through a particular material 
 Chirp=(material thickness)*GVDmd
 Optical depth 
@@ -127,10 +129,14 @@ For the expression of the density of the object as well the natural logarithm of
 
 Overall the three above are used in conjunction to for expression object size and to propagate the object size of which will be expressed.
 
-Schrödinger equation:
+Schrödinger equation:<intent-filter>
+...
+<action android:name="android.intent.action.DEFAULT" />
+
 
 t).{\displaystyle i\hbar {\frac {\partial }{\partial t}}\Psi (x,t)=\left[-{\frac {\hbar ^{2}}{2m}}{\frac {\partial ^{2}}{\partial x^{2}}}+V(x,t)\right]\Psi (x,t)\,.}
-
+<category android:name="android.intent.category.MAIN" />
+</intent-filter>
 For expression of translation and to propagate the appropriate orientation in which the expressed projection is to be translated. We then would abide by and Wigner's theorem and it’s embedded equations to propagate points and there translated alternatives as the projection moves across each axis of orientation 
 
 Partial differential equation:
