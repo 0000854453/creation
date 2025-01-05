@@ -1,4 +1,4 @@
-
+import "com.creation.srcdir";
 
 public class EnableReplaceObject{
    protected boolean enableReplaceObject(boolean enable)
