@@ -1,6 +1,6 @@
 # creation
 <h1>Holographic</h1> 
-
+<p>this is a regression that follows a division of engress to replace symbolic links with correlations to a triage of types in order to build toc applications (table of contents) using core concepts like lossy coupled and strict concurrency for branches which are serialized for TTL lifecycles that are stable when keys are rotating after time to live and are issued by bitwise operations with dual ownership for domain subleasing of inline-ids which are a hashable pair to directory names. </p>
 
 #<h3>Holographic Array paradigm and Interface<h3>
  #<h2>Code name: Creation</h2> 
